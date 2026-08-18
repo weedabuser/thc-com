@@ -1,0 +1,31 @@
+# Ignore environment files and secrets
+.env
+.env.*
+
+# WordPress config and uploads
+wp-config.php
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/cache/
+wp-content/backups/
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
+
+# Node / PHP / vendor
+node_modules/
+vendor/
+
+# Docker overrides
+docker-compose.override.yml
+
+# Database dumps and logs
+*.sql
+*.sql.gz
+*.log
+
+# Ignore local IDE and system files
+*.sublime-* 
+thumbs.db
